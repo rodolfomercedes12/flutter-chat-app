@@ -9,19 +9,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Chat App',
-      initialRoute: 'login',
+      initialRoute: 'chat',
       routes: appRoutes,
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text("Hola Mundo"),
-      ),
     );
   }
 }

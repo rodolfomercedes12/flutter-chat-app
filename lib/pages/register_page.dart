@@ -24,7 +24,7 @@ class RegisterPage extends StatelessWidget {
                 _Form(),
                 LabelsWidget(
                   ruta: 'login',
-                  label1: "Ya tienes una cuenta?",
+                  label1: "Ya tienes una cuentaAAA?",
                   label2: "Iniciar Sesion",
                 ),
                 Text(
